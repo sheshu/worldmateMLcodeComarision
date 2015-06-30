@@ -42,7 +42,7 @@ import org.codehaus.jackson.type.TypeReference;
  *
  * @author Sheshadri
  */
-public class multFlightXMLToTSVParsing {
+public class ComparisionTest {
 
     public static void main(String args[]) throws JAXBException, FileNotFoundException, IOException {
 
