@@ -1,0 +1,24 @@
+[
+  {
+    "supplierName":"KLM",
+    "supplierAirlineCode":"KL",
+    "supplierFlightNumber":1659,
+    "departureAirportCode":"AMS",
+    "arrivalAirportCode":"VCE",
+    "departureAirportName":"Amsterdam-Schiphol Airport",
+    "arrivalAirportName":"Marco Polo Airport",
+    "dateTimeofDeparture":"2015-04-13T20:30:00.000Z",
+    "dateTimeofArrival":"2015-04-13T22:15:00.000Z"
+  },{
+    "supplierName":"KLM",
+    "supplierAirlineCode":"KL",
+    "supplierFlightNumber":1656,
+    "departureAirportCode":"VCE",
+    "arrivalAirportCode":"AMS",
+    "departureAirportName":"Marco Polo Airport",
+    "arrivalAirportName":"Amsterdam-Schiphol Airport",
+    "dateTimeofDeparture":"2015-04-14T17:10:00.000Z",
+    "dateTimeofArrival":"2015-04-14T19:10:00.000Z"
+  }
+  
+]
