@@ -1,0 +1,104 @@
+{  
+  "receive_time":"2015-06-29T09:56:00.535+0000",
+  "status":  {  
+    "code":"SUCCESS",
+    "message":"Success"
+  },
+  "supplier_email":"OTR@travelport.com",
+  "from":"Cai Alfven <cai@alfven.net>",
+  "to":"cai.alfven@se.ibm.com",
+  "subject":"Fwd:  Agency confirmation number VFMXNC - IN POLICY - Traveler:CAI ALFVEN",
+  "email_parts":  [  
+
+  ],
+  "itinerary":  [  
+    {  
+      "@class":"com.sabre.tripcase.tcp.emailparse.v1.model.Flight",
+      "type":"FLIGHT",
+      "supplier":      {  
+        "name":"Iberia",
+        "code":"IB"
+      },
+      "origin":      {  
+        "code":"ARN",
+        "name":"Arlanda Airport"
+      },
+      "destination":      {  
+        "code":"LHR",
+        "name":"Heathrow Airport"
+      },
+      "departure_date":"2015-05-08T05:20:00.000+0000",
+      "arrival_date":"2015-05-08T19:00:00.000+0000",
+      "seats":      [  
+
+      ],
+      "flight_number":"4785"
+    },
+    {  
+      "@class":"com.sabre.tripcase.tcp.emailparse.v1.model.Flight",
+      "type":"FLIGHT",
+      "supplier":      {  
+        "name":"Iberia",
+        "code":"IB"
+      },
+      "origin":      {  
+        "code":"LHR",
+        "name":"Heathrow Airport"
+      },
+      "destination":      {  
+        "code":"LAS",
+        "name":"McCarran International Airport"
+      },
+      "departure_date":"2015-05-08T21:50:00.000+0000",
+      "arrival_date":"2015-05-09T00:20:00.000+0000",
+      "seats":      [  
+
+      ],
+      "flight_number":"4661"
+    },
+    {  
+      "@class":"com.sabre.tripcase.tcp.emailparse.v1.model.Flight",
+      "type":"FLIGHT",
+      "supplier":      {  
+        "name":"Iberia",
+        "code":"IB"
+      },
+      "origin":      {  
+        "code":"LAS",
+        "name":"McCarran International Airport"
+      },
+      "destination":      {  
+        "code":"LHR",
+        "name":"Heathrow Airport"
+      },
+      "departure_date":"2015-05-15T02:25:00.000+0000",
+      "arrival_date":"2015-05-15T20:25:00.000+0000",
+      "seats":      [  
+
+      ],
+      "flight_number":"4660"
+    },
+    {  
+      "@class":"com.sabre.tripcase.tcp.emailparse.v1.model.Flight",
+      "type":"FLIGHT",
+      "supplier":      {  
+        "name":"Iberia",
+        "code":"IB"
+      },
+      "origin":      {  
+        "code":"LHR",
+        "name":"Heathrow Airport"
+      },
+      "destination":      {  
+        "code":"ARN",
+        "name":"Arlanda Airport"
+      },
+      "departure_date":"2015-05-15T22:00:00.000+0000",
+      "arrival_date":"2015-05-16T01:25:00.000+0000",
+      "seats":      [  
+
+      ],
+      "flight_number":"4784"
+    }
+  ]
+}
