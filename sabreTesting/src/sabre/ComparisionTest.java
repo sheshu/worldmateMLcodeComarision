@@ -56,15 +56,24 @@ public class ComparisionTest {
         //For single json data read
         //MlFlightDetails jsonCollection = mapper.readValue(new File("D:\\office\\sabre\\4810057.json"),MlFlightDetails.class);
         //for json array
-        List<MlFlightDetails> myObjects = Arrays.asList(mapper.readValue(new File("D:\\office\\sabre\\4810057.json"), MlFlightDetails[].class));
-       
+        List<MlFlightDetails> mlJsonObjects = Arrays.asList(mapper.readValue(new File("D:\\office\\sabre\\4810062.json"), MlFlightDetails[].class));
+        List<ItineraryItem> itenaryItemList = wordmateCollection.getItems().getFlightOrCarRentalOrHotelReservation();
+        
                 
         System.out.println("===========================json =======================");
-        //for (int index = 0; index < myObjects1.size(); index++) {
-            //System.out.println(" Flight -" + jsonCollection.);
-            System.out.println(" number -" + myObjects.size());
-        //}
-        
+       
+         for (int index = 0; index < itenaryItemList.size(); index++) {
+                if (itenaryItemList.get(index) instanceof Flight) {
+                    Flight fl = (Flight) itenaryItemList.get(index);
+                    String supplierName = fl.getBookingDetails().getName();
+                    for (int index1 = 0; index1 < mlJsonObjects.size(); index1++) {
+                        if(fl.getProviderDetails().getName().equals(mlJsonObjects.get(index).getSupplierName())){
+                            System.out.println("Worlmate supplier name---"+fl.getBookingDetails().getName()+" ML supplier name -" + mlJsonObjects.get(index1).getSupplierName());
+                            System.out.println("Worlmate supplier flightName---"+fl.getDetails().getNumber()+" ML supplier flightname -" + mlJsonObjects.get(index1).getSupplierFlightNumber());                            
+                        }
+                    }
+                }
+            }
      /*
         List<ItineraryItem> itenaryItemList = wordmateCollection.getItems().getFlightOrCarRentalOrHotelReservation();
         int index = 0;
